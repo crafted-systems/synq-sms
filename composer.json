@@ -1,0 +1,27 @@
+{
+    "name": "crafted-systems/synq-sms",
+    "description": "Synq SMS API",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "5.*"
+    },
+    "author": {
+        "name": "Crafted Systems",
+        "email": "hello@crafted.co.ke"
+    },
+    "autoload": {
+        "psr-4": {
+            "CraftedSystems\\Synq\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CraftedSystems\\Synq\\SynqSMSServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
